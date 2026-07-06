@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>彭于晏 - 作品集</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: #f6f6f4;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .header {
+      margin-bottom: 50px;
+    }
+
+    .name {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-bottom: 45px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 12px;
+      background: #eee;
+      border-radius: 6px;
+      margin-right: 5px;
+      margin-top: 8px;
+    }
+
+    .title {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .desc {
+      color: #444;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .footer {
+      text-align: center;
+      color: #888;
+      margin-top: 60px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- 头部 -->
+    <div class="header">
+      <div class="name">彭于晏</div>
+      <div class="subtitle">
+        🎓 应届毕业生 · 💻 前端开发方向 · 🚀 专注构建可落地的产品<br/>
+        目标：独立完成从设计到部署的全栈项目
+      </div>
+    </div>
+
+    <!-- 关于 -->
+    <div class="section">
+      <div class="section-title">关于我</div>
+
+      <div class="card">
+        👋 我是一名应届毕业生，专注前端开发与产品实践能力。
+        <br/><br/>
+        🎯 我更关注“能不能做出来”，而不是只停留在想法。
+        <br/><br/>
+        🧠 技术栈：HTML / CSS / JavaScript / React / Node.js
+      </div>
+    </div>
+
+    <!-- 我的优势 -->
+    <div class="section">
+      <div class="section-title">我的优势</div>
+
+      <div class="card">⚡ 快速学习并落地技术，能独立完成项目</div>
+      <div class="card">🧩 具备完整项目思维（需求→开发→部署）</div>
+      <div class="card">🎯 以作品驱动学习，而不是纯理论</div>
+      <div class="card">🚀 持续迭代项目能力（优化UI与结构）</div>
+    </div>
+
+    <!-- 项目证明 -->
+    <div class="section">
+      <div class="section-title">项目证明</div>
+
+      <div class="card">📌 完成 5+ 前端项目（含 API 交互）</div>
+      <div class="card">📌 独立开发 AI 聊天应用（OpenAI API）</div>
+      <div class="card">📌 多个项目已上线部署（可访问）</div>
+      <div class="card">📌 熟悉前后端基础 + 部署流程</div>
+    </div>
+
+    <!-- 作品集（重点升级） -->
+    <div class="section">
+      <div class="section-title">作品集</div>
+
+      <div class="card">
+        <div class="title">📦 任务管理系统（Notion Lite）</div>
+        <div class="desc">
+          一个轻量级任务管理系统，支持任务创建、分类、状态管理，模拟 Notion 基础功能。
+        </div>
+        <div class="meta">
+          难点：状态管理与组件拆分逻辑
+        </div>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+      </div>
+
+      <div class="card">
+        <div class="title">🌐 个人博客系统</div>
+        <div class="desc">
+          支持 Markdown 编辑与渲染的博客系统，可发布文章并进行分类管理。
+        </div>
+        <div class="meta">
+          难点：Markdown 解析 + 数据存储设计
+        </div>
+        <span class="tag">Next.js</span>
+        <span class="tag">MongoDB</span>
+      </div>
+
+      <div class="card">
+        <div class="title">🤖 AI 智能聊天助手</div>
+        <div class="desc">
+          接入 OpenAI API 的对话应用，支持上下文连续聊天与多轮对话。
+        </div>
+        <div class="meta">
+          难点：API 调用与上下文管理
+        </div>
+        <span class="tag">JavaScript</span>
+        <span class="tag">OpenAI API</span>
+      </div>
+    </div>
+
+    <!-- 博客 -->
+    <div class="section">
+      <div class="section-title">博客</div>
+
+      <div class="card">如何从0搭建一个作品集网站</div>
+      <div class="card">应届毕业生前端求职经验总结</div>
+      <div class="card">前端开发学习路径分享</div>
+    </div>
+
+    <!-- 联系 -->
+    <div class="section">
+      <div class="section-title">联系我</div>
+
+      <div class="card">
+        📮 邮箱：yourname@email.com<br/>
+        🐙 GitHub：github.com/yourname<br/>
+        💼 LinkedIn：linkedin.com/in/yourname
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2026 彭于晏 · Notion 风作品集网站
+    </div>
+
+  </div>
+</body>
+</html>
