@@ -1,211 +1,228 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>李铭鑫 - 作品集</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>李铭鑫 - 个人作品集</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      background: #f6f6f4;
-      color: #222;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial;
+  background: #f6f6f4;
+  color: #222;
+}
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
 
-    .header {
-      margin-bottom: 50px;
-    }
+section {
+  margin-bottom: 50px;
+}
 
-    .name {
-      font-size: 42px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
 
-    .subtitle {
-      color: #666;
-      font-size: 16px;
-      line-height: 1.6;
-    }
+.hero {
+  margin-bottom: 60px;
+}
 
-    .section {
-      margin-bottom: 45px;
-    }
+.name {
+  font-size: 44px;
+  font-weight: 700;
+}
 
-    .section-title {
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 15px;
-      color: #444;
-    }
+.subtitle {
+  color: #666;
+  margin-top: 8px;
+  line-height: 1.6;
+}
 
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 18px 20px;
-      margin-bottom: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      transition: 0.2s;
-    }
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
 
-    .card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    }
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
 
-    .tag {
-      display: inline-block;
-      padding: 3px 8px;
-      font-size: 12px;
-      background: #eee;
-      border-radius: 6px;
-      margin-right: 5px;
-      margin-top: 8px;
-    }
+.tag {
+  display: inline-block;
+  padding: 3px 8px;
+  background: #eee;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-top: 8px;
+}
 
-    .title {
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
+.title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
 
-    .desc {
-      color: #444;
-      font-size: 14px;
-      line-height: 1.5;
-      margin-bottom: 8px;
-    }
+.desc {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
 
-    .meta {
-      font-size: 13px;
-      color: #666;
-    }
-
-    .footer {
-      text-align: center;
-      color: #888;
-      margin-top: 60px;
-      font-size: 13px;
-    }
-  </style>
+.footer {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  margin-top: 60px;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
 
-    <!-- 头部 -->
-    <div class="header">
-      <div class="name">李铭鑫</div>
-      <div class="subtitle">
-        🎓 应届毕业生 · 💻 前端开发方向 · 🚀 专注构建可落地的产品<br/>
-        目标：独立完成从设计到部署的全栈项目
-      </div>
-    </div>
-
-    <!-- 关于 -->
-    <div class="section">
-      <div class="section-title">关于我</div>
-
-      <div class="card">
-        👋 我是一名应届毕业生，专注前端开发与产品实践能力。
-        <br/><br/>
-        🎯 我更关注“能不能做出来”，而不是只停留在想法。
-        <br/><br/>
-        🧠 技术栈：HTML / CSS / JavaScript / React / Node.js
-      </div>
-    </div>
-
-    <!-- 我的优势 -->
-    <div class="section">
-      <div class="section-title">我的优势</div>
-
-      <div class="card">⚡ 快速学习并落地技术，能独立完成项目</div>
-      <div class="card">🧩 具备完整项目思维（需求→开发→部署）</div>
-      <div class="card">🎯 以作品驱动学习，而不是纯理论</div>
-      <div class="card">🚀 持续迭代项目能力（优化UI与结构）</div>
-    </div>
-
-    <!-- 项目证明 -->
-    <div class="section">
-      <div class="section-title">项目证明</div>
-
-      <div class="card">📌 完成 5+ 前端项目（含 API 交互）</div>
-      <div class="card">📌 独立开发 AI 聊天应用（OpenAI API）</div>
-      <div class="card">📌 多个项目已上线部署（可访问）</div>
-      <div class="card">📌 熟悉前后端基础 + 部署流程</div>
-    </div>
-
-    <!-- 作品集（重点升级） -->
-    <div class="section">
-      <div class="section-title">作品集</div>
-
-      <div class="card">
-        <div class="title">📦 任务管理系统（Notion Lite）</div>
-        <div class="desc">
-          一个轻量级任务管理系统，支持任务创建、分类、状态管理，模拟 Notion 基础功能。
-        </div>
-        <div class="meta">
-          难点：状态管理与组件拆分逻辑
-        </div>
-        <span class="tag">React</span>
-        <span class="tag">Node.js</span>
-      </div>
-
-      <div class="card">
-        <div class="title">🌐 个人博客系统</div>
-        <div class="desc">
-          支持 Markdown 编辑与渲染的博客系统，可发布文章并进行分类管理。
-        </div>
-        <div class="meta">
-          难点：Markdown 解析 + 数据存储设计
-        </div>
-        <span class="tag">Next.js</span>
-        <span class="tag">MongoDB</span>
-      </div>
-
-      <div class="card">
-        <div class="title">🤖 AI 智能聊天助手</div>
-        <div class="desc">
-          接入 OpenAI API 的对话应用，支持上下文连续聊天与多轮对话。
-        </div>
-        <div class="meta">
-          难点：API 调用与上下文管理
-        </div>
-        <span class="tag">JavaScript</span>
-        <span class="tag">OpenAI API</span>
-      </div>
-    </div>
-
-    <!-- 博客 -->
-    <div class="section">
-      <div class="section-title">博客</div>
-
-      <div class="card">如何从0搭建一个作品集网站</div>
-      <div class="card">应届毕业生前端求职经验总结</div>
-      <div class="card">前端开发学习路径分享</div>
-    </div>
-
-    <!-- 联系 -->
-    <div class="section">
-      <div class="section-title">联系我</div>
-
-      <div class="card">
-        📮 邮箱：yourname@email.com<br/>
-        🐙 GitHub：github.com/yourname<br/>
-        💼 LinkedIn：linkedin.com/in/yourname
-      </div>
-    </div>
-
-    <div class="footer">
-      © 2026 李铭鑫 · Notion 风作品集网站
-    </div>
-
+<!-- 个人信息 -->
+<section class="hero">
+  <div class="name">李铭鑫</div>
+  <div class="subtitle">
+    前端开发工程师（应届毕业生）<br/>
+    专注 Web 前端开发 / 产品实现 / 用户体验优化
   </div>
+</section>
+
+<!-- 核心优势 -->
+<section>
+<h2>核心优势</h2>
+
+<div class="card">⚡ 快速学习并落地新技术，能够独立完成项目开发</div>
+<div class="card">🧩 具备完整项目思维（需求分析 → 开发实现 → 部署上线）</div>
+<div class="card">🎯 以实际项目驱动学习，而不是停留在理论层面</div>
+<div class="card">🚀 具备持续优化项目能力（结构 / UI / 性能优化）</div>
+</section>
+
+<!-- 工作 / 实习经历 -->
+<section>
+<h2>工作 / 实习经历</h2>
+
+<div class="card">
+<div class="title">前端开发实习生（某科技公司）</div>
+<div class="desc">
+参与企业内部后台系统开发，负责页面开发与接口对接，实现业务模块功能。
+</div>
+</div>
+</section>
+
+<!-- 项目经验 -->
+<section>
+<h2>项目经验</h2>
+
+<div class="card">
+<div class="title">📦 任务管理系统（类 Notion 轻量版）</div>
+<div class="desc">
+实现任务创建、分类管理与状态流转的 Web 应用系统。
+</div>
+<div class="desc">
+难点：状态管理设计与组件拆分结构优化
+</div>
+<span class="tag">前端框架</span>
+<span class="tag">后端服务</span>
+</div>
+
+<div class="card">
+<div class="title">🌐 个人博客系统</div>
+<div class="desc">
+支持 Markdown 编辑与文章发布的个人博客平台。
+</div>
+<div class="desc">
+难点：Markdown 解析与数据结构设计
+</div>
+<span class="tag">现代前端框架</span>
+<span class="tag">数据库</span>
+</div>
+
+<div class="card">
+<div class="title">🤖 人工智能聊天应用</div>
+<div class="desc">
+接入人工智能接口的智能对话系统，支持多轮对话。
+</div>
+<div class="desc">
+难点：上下文管理与接口请求调度
+</div>
+<span class="tag">JavaScript</span>
+<span class="tag">接口调用</span>
+</div>
+
+</section>
+
+<!-- 作品展示 -->
+<section>
+<h2>作品展示</h2>
+
+<div class="card">📌 用户界面设计作品合集（可替换为项目截图）</div>
+<div class="card">📌 前端组件库与交互实验项目</div>
+<div class="card">📌 响应式网页设计练习作品</div>
+</section>
+
+<!-- 专业技能 -->
+<section>
+<h2>专业技能</h2>
+
+<div class="card">
+前端开发：HTML / CSS / JavaScript / 前端框架（React）
+</div>
+
+<div class="card">
+后端开发：Node.js / 接口开发 / 基础服务搭建
+</div>
+
+<div class="card">
+开发工具：Git / GitHub / 部署平台（Vercel 等）
+</div>
+</section>
+
+<!-- 荣誉证书 -->
+<section>
+<h2>荣誉证书</h2>
+
+<div class="card">计算机等级考试证书</div>
+<div class="card">校级优秀项目奖</div>
+<div class="card">前端开发竞赛参与证书</div>
+</section>
+
+<!-- 教育背景 -->
+<section>
+<h2>教育背景</h2>
+
+<div class="card">
+重庆工程学院 · 市场营销专业<br/>
+2023 - 2027
+</div>
+</section>
+
+<!-- 联系方式 -->
+<section>
+<h2>联系方式</h2>
+
+<div class="card">
+📮 邮箱：1754674214@qq.com<br/>
+💼 电话：13896805241
+</div>
+</section>
+
+<div class="footer">
+© 2026 李铭鑫 · 中文版 Notion 风个人作品集
+</div>
+
+</div>
 </body>
 </html>
